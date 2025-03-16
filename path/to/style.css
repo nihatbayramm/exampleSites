@@ -1,0 +1,28 @@
+.contact-info {
+    background-color: #f9f9f9; /* Daha açık ve modern bir arka plan rengi */
+    border: 1px solid #ddd; /* Daha yumuşak çerçeve rengi */
+    padding: 20px; /* Daha geniş iç boşluk */
+    margin-top: 20px; /* Üstten boşluk */
+    width: 100%; /* Mobil uyumlu olması için genişliği %100 yaptık */
+    max-width: 350px; /* Maksimum genişlik belirledik */
+    border-radius: 10px; /* Yuvarlatılmış köşeler */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Hafif gölgelendirme */
+    transition: all 0.3s ease-in-out; /* Hover efekti için geçiş efekti */
+}
+
+.contact-info:hover {
+    transform: translateY(-3px); /* Üzerine gelindiğinde hafif yukarı hareket */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15); /* Daha belirgin gölge */
+}
+
+.contact-info p {
+    font-size: 17px; /* Yazı boyutu biraz büyütüldü */
+    color: #444; /* Daha modern bir yazı rengi */
+    line-height: 1.6; /* Okunabilirliği artırmak için satır yüksekliği artırıldı */
+    margin-bottom: 10px; /* Paragraflar arası boşluk artırıldı */
+    font-weight: 500; /* Yazılar biraz daha kalın yapıldı */
+}
+
+.contact-info p:last-child {
+    margin-bottom: 0; /* Son paragrafın alt boşluğunu kaldırdık */
+}
